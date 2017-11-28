@@ -99,7 +99,8 @@ function invert(a,b){
 // Cette fonction doit renvoyer un booléen
 var isDivisibleBy5 = function(x) {
 	// WRITE YOUR CODE HERE
-	var x;
+	
+	//return x%5 === 0; => comme le === renvoie nativement true ou false, cet exercice peut se resoudre en une ligne
 
 	if(x%5 == 0)
 		console.log(true);
@@ -111,14 +112,13 @@ var isDivisibleBy5 = function(x) {
 // Ecrire une fonction 'isDivisibleByN' qui reçoit deux nombres entiers x et n, et qui vérifie si x est divisible par n.
 // Cette fonction doit renvoyer un booléen
 function isDivisibleByN(x, n) {
-	// WRITE YOUR CODE HERE
-	var x;
-	var n;
+	// WRITE YOUR CODE HERE	
+	return x%n === 0;
 
-	if(x%n == 0)
-		console.log(true);
-	else
-		console.log(false);
+	// if(x%n == 0)
+	// 	console.log(true);
+	// else
+	// 	console.log(false);
 };
 
 // ----
