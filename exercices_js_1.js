@@ -127,9 +127,7 @@ function isDivisibleByN(x, n) {
 // Afficher dans la console
 function genereEtArrondit() {
 	// WRITE YOUR CODE HERE
-	var x = Math.random().toFixed(2);
-
-	return x;
+	return Math.random().toFixed(2);
 };
 
 
@@ -142,8 +140,7 @@ function genereEtArrondit() {
 // de la première occurence de la lettre 'e' dans cette chaîne
 function renvoiePositionE(str){
 
-	var str;
-	console.log(str.indexOf('e', [0]));
+	return str.indexOf('e', [0]);
 };
 
 // ----
@@ -151,8 +148,7 @@ function renvoiePositionE(str){
 // de la dernière occurence de la lettre 'e' dans cette chaîne
 function renvoieDernierE(str){
 
-	var str;
-	console.log(str.lastIndexOf('e'));
+	return str.lastIndexOf('e');
 };
 
 // ----
@@ -160,10 +156,9 @@ function renvoieDernierE(str){
 // et qui renvoie un tableau contenant chacun des différents mots dans la phrase
 function splitPhrase(str){
 
-	var str;
 	var tableau = str.split(" ");
 
-	console.log(tableau);
+	return tableau;
 };
 
 // ----
