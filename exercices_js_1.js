@@ -16,7 +16,7 @@ function hello() {
 
 // addition(a, b)
 function addition(a, b) {
-
+	// return a + b; => on peut ecrire cette operation directement dans le return.
 	a = 5;
 	b = 12;
 	c = a + b;
@@ -327,16 +327,15 @@ function objectOne(){
 }
 // ----
 // Ecrire une fonction qui reçoit un objet, et qui renvoie la longueur de cet objet 
-function objLen(){
-	
+
 	var getObjLength = function(obj) {
 		obj = prompt("Type the name of your object:");
 		var len = obj.length;
+		return len;
 	}
-}
 	// WRITE YOUR CODE HERE
 // Tester cette fonction avec un objet de votre choix que vous aurez écrit
-
+	//tester avec objectOne.
 // ----
 // Pour résoudre les exercices précédents vous avez écrit des fonctions.
 // Vous devez maintenant construire un objet ayant plusieurs propriétés dont:
