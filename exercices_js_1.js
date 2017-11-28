@@ -113,7 +113,7 @@ var isDivisibleBy5 = function(x) {
 // Cette fonction doit renvoyer un booléen
 function isDivisibleByN(x, n) {
 	// WRITE YOUR CODE HERE	
-	return x%n === 0;
+	return x%n === 0; // => on peut reprendre le code de l'exercice precedent avec x et n.
 
 	// if(x%n == 0)
 	// 	console.log(true);
@@ -127,9 +127,9 @@ function isDivisibleByN(x, n) {
 // Afficher dans la console
 function genereEtArrondit() {
 	// WRITE YOUR CODE HERE
-	var x = Math.random();
+	var x = Math.random().toFixed(2);
 
-	console.log(x.toFixed(2));
+	return x;
 };
 
 
@@ -330,7 +330,7 @@ function objectOne(){
 
 	var getObjLength = function(obj) {
 		obj = prompt("Type the name of your object:");
-		var len = obj.length;
+		var len = obj.length; // var len = Object.keys(obj);
 		return len;
 	}
 	// WRITE YOUR CODE HERE
